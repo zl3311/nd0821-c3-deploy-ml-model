@@ -18,7 +18,7 @@ For additional information see the Model Card paper: https://arxiv.org/pdf/1810.
 * 20% of the dataset was used for testing purposes.
 
 ## Metrics
-* Evaluation metrics include precision, recall and fbeta.
+* Evaluation metrics include precision (0.67), recall (0.32) and fbeta (0.43).
 
 ## Ethical Considerations
 * Demographic data were obtained from the public 1994 Census Database. No new information is inferred or annotated.
