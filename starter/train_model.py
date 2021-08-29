@@ -39,8 +39,8 @@ def prepare_data(data):
         test, categorical_features=cat_features, label="salary", training=False, encoder=encoder, lb=lb
     )
 
-    save_to_file(encoder, "encoder")
-    save_to_file(lb, "labelbinarizer")
+    save_to_file(encoder, "encoder.pkl")
+    save_to_file(lb, "labelbinarizer.pkl")
 
     return X_train, y_train, X_test, y_test, feature
 
@@ -48,7 +48,7 @@ def prepare_data(data):
 def train(X_train, y_train, X_test, y_test, feature):
     # Train and save a model.
     model = train_model(X_train, y_train)
-    save_to_file(model, 'model.sav')
+    save_to_file(model, 'model.pkl')
     preds = inference(model, X_test)
 
     precision, recall, fbeta = compute_model_metrics(y_test, preds)
