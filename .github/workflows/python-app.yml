@@ -26,7 +26,7 @@ jobs:
         aws-access-key-id: AKIAZTTQVCUD3Z6ASCCV
         aws-secret-access-key: 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
         # aws-session-token: ${{ secrets.AWS_SESSION_TOKEN }} # if you have/need it
-        aws-region: us-east-1
+        aws-region: us-east-2
     - name: setup DVC
       uses: iterative/setup-dvc@v1
     - name: DVC Pull
