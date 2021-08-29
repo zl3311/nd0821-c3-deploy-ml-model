@@ -45,5 +45,5 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with pytest
       run: |
-        pytest starter/tests.py
-        pytest starter/api_tests.py
+        pytest starter/test/test_api.py
+        pytest starter/test/test_model.py
