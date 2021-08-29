@@ -17,7 +17,7 @@ data = {
         "hours_per_week": 40,
         "native_country": "United-States"
     }
-response = requests.post('https://census-bureau-demo.herokuapp.com/inference/', data=json.dumps(data))
+response = requests.post('https://nd0821-c3-app.herokuapp.com/inference/', data=json.dumps(data))
 
 print(response.status_code)
 print(response.json())
