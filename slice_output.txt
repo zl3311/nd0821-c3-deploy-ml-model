@@ -1,0 +1,7 @@
+For Divorced - precision: 0.515625 recall 0.336734693877551 fbeta 0.4074074074074074
+For Married-AF-spouse - precision: 1.0 recall 0.0 fbeta 0.0
+For Married-civ-spouse - precision: 0.7836812144212524 recall 0.3075204765450484 fbeta 0.44171122994652406
+For Married-spouse-absent - precision: 0.0 recall 0.0 fbeta 0.0
+For Never-married - precision: 0.35772357723577236 recall 0.43137254901960786 fbeta 0.39111111111111113
+For Separated - precision: 0.4090909090909091 recall 0.5294117647058824 fbeta 0.46153846153846156
+For Widowed - precision: 0.5238095238095238 recall 0.4782608695652174 fbeta 0.5
