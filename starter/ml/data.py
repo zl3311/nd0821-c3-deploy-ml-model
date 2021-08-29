@@ -1,6 +1,10 @@
 import numpy as np
 from sklearn.preprocessing import LabelBinarizer, OneHotEncoder
 
+import logging
+
+logging.basicConfig(level=logging.INFO, format="%(asctime)-15s %(message)s")
+logger = logging.getLogger()
 
 def process_data(
     X, categorical_features=[], label=None, training=True, encoder=None, lb=None
