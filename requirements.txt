@@ -1,4 +1,3 @@
-python
 numpy
 pandas
 scikit-learn
@@ -7,3 +6,7 @@ requests
 fastapi==0.63.0
 uvicorn
 gunicorn
+dvc
+boto3
+s3fs
+dvc[s3]
