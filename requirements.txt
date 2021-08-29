@@ -6,7 +6,6 @@ requests
 fastapi==0.63.0
 uvicorn
 gunicorn
-dvc
+dvc==2.6.2
 boto3
 s3fs
-dvc[s3]
